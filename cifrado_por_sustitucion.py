@@ -31,7 +31,8 @@ def decodificar(msg):
         mensaje_2 += chr(ord(j)-clave)
     # retornamos el mensaje desencriptado
     return mensaje_2
-
+    
+#contador
 n = 1
 print(f"************************* CHAT WHOAMI {n} *********************** ")
 while(True):
