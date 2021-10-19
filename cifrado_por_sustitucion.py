@@ -1,3 +1,6 @@
+#Elaboró Jose Antonio Rivera Torres 
+#Carrera en Ingneria en sistemas computacionales
+
 import random
 # recibe el mensaje del usuario
 mensaje_1 = ""
