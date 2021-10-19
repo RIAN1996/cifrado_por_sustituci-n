@@ -3,8 +3,6 @@
 import random
 # recibe el mensaje del usuario
 mensaje_1 = ""
-# valores aleatorios para la clave
-
 
 # encriptar el mensaje
 def encriptar(msg, clave):
@@ -24,7 +22,7 @@ def decodificar(msg):
     # obtener clave de la cadena
     clave = ord(msg[-1]) + 1 
     clave -= len(msg)
-    # eliminamos la clave
+    # eliminamos la clave de la cadena
     msg = msg[:-1]
     mensaje_2 = ""
     for j in msg:
