@@ -9,7 +9,7 @@ from operator import xor
 # generar clave
 def generateKey(len_msg):
     key = ""
-    for i in range(len(len_msg)):
+    for i in range(len_msg):
         key += chr(random.randint(97, 130))
     return key
 
@@ -35,7 +35,7 @@ def decrypt(msg, key):
 
 
 msg_usr = input("Ingresa el mensaje: ")
-key = generateKey(msg_usr)
+key = generateKey(len(msg_usr))
 msg_encrypted_generte = encrypt(msg_usr,key)
 msg = decrypt(msg_encrypted_generte,key)
 print(f"Clave: {key}")
